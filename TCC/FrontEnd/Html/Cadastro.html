@@ -20,44 +20,62 @@
     <form>
 
       <div class="input-group">
-        <label>Nome completo</label>
-        <input type="text">
+        <label for="nome">Nome completo</label>
+        <input 
+        type="text"
+        name="nome"
+        required>
       </div>
 
       <div class="input-group">
-        <label>Email</label>
-        <input type="email">
+        <label for="email">E-mail</label>
+        <input type="email"
+        name="email"
+        required>
       </div>
 
       <div class="input-group">
-        <label>Data de nascimento</label>
-        <input type="date">
+        <label for="dataNasc">Data de nascimento</label>
+        <input type="date"
+        name="dataNasc"
+        required>
       </div>
 
       <div class="input-group">
         <label>Escolaridade</label>
         <select>
-          <option>Selecione</option>
-          <option>Ensino Fundamental</option>
-          <option>Ensino Médio</option>
-          <option>Técnico</option>
-          <option>Superior</option>
+          <option value="" disabled selected>Selecione</option>
+          <option value="fundamentalCom">Ensino Fundamental completo</option>
+          <option value="fundamentalAn">Ensino Fundamental em andamento</option>
+          <option value="medioCom">Ensino Médio completo</option>
+          <option value="medioAn">Ensino Médio em andamento</option>
+          <option value="mediotec">Ensino Médio integrado ao Técnico completo</option>
+          <option value="tecCom">Ensino Técnico completo</option>
+          <option value="tecAn">Ensino Técnico em andamento</option>
+          <option value="superiorCom">Ensino Superior completo</option>
+          <option value="superiorAn">Ensino Superior em andamento</option>
         </select>
       </div>
 
       <div class="input-group">
-        <label>Usuário</label>
-        <input type="text">
+        <label for="usuario">Usuário</label>
+        <input type="text"
+        name="usuario"
+        required>
       </div>
 
       <div class="input-group">
-        <label>Senha</label>
-        <input type="password">
+        <label for="senha">Senha</label>
+        <input type="password"
+        name="senha"
+        required>
       </div>
 
       <div class="input-group">
-        <label>Confirmar senha</label>
-        <input type="password">
+        <label for="confirm">Confirmar senha</label>
+        <input type="password"
+        name="confirm"
+        required>
       </div>
 
       <div class="input-group">
@@ -66,7 +84,9 @@
 
         <label class="upload-box">
           Clique para enviar arquivo
-          <input type="file" hidden>
+          <input type="file" 
+          hidden
+          required>
         </label>
       </div>
 
