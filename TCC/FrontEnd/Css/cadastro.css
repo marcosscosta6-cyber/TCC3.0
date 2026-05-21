@@ -1,9 +1,8 @@
-
- *{
+*{
       margin:0;
       padding:0;
       box-sizing:border-box;
-      font-family:'Poppins', sans-serif;
+      font-family:'Be Vietnam Pro', sans-serif;
     }
 
     body{
@@ -39,6 +38,8 @@
       color:#111;
       font-weight:700;
       margin-bottom:5px;
+          font-family: "Be Vietnam Pro",sans-serif;
+
     }
 
     .subtitle{
@@ -46,6 +47,8 @@
       color:#555;
       margin-bottom:30px;
       font-size:15px;
+      font-family: "Be Vietnam Pro",sans-serif;
+
     }
 
     .input-group{
@@ -58,6 +61,8 @@
       font-weight:600;
       margin-bottom:6px;
       color:#111;
+          font-family: "Be Vietnam Pro",sans-serif;
+
     }
 
     input,
@@ -72,10 +77,14 @@
       color:white;
       font-size:15px;
       box-shadow:0 4px 6px rgba(0,0,0,0.18);
+          font-family: "Be Vietnam Pro",sans-serif;
+
     }
 
     input::placeholder{
       color:#d5c7e7;
+          font-family: "Be Vietnam Pro",sans-serif;
+
     }
 
     select{
@@ -103,6 +112,8 @@
       color:#666;
       margin-top:-4px;
       margin-bottom:10px;
+          font-family: "Be Vietnam Pro",sans-serif;
+
     }
 
     .btn{
@@ -119,6 +130,8 @@
       margin:35px auto 0;
       box-shadow:0 4px 6px rgba(0,0,0,0.25);
       transition:0.3s;
+          font-family: "Be Vietnam Pro",sans-serif;
+
     }
 
     .btn:hover{
